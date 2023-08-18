@@ -11,7 +11,7 @@ from mlflow import pyfunc
 
 # Setting a tracking uri to log the mlflow logs in a particular location tracked by 
 from mlflow.tracking import MlflowClient
-tracking_uri = "http://localhost:5000"
+tracking_uri = "http://localhost:5005"
 client = MlflowClient(tracking_uri=tracking_uri)
 mlflow.set_tracking_uri(tracking_uri)
 
